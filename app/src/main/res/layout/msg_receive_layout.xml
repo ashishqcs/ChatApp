@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/msg_rec_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/msg_receive_box"
+        android:gravity="center"
+        android:maxWidth="250dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="15dp"
+        android:paddingEnd="15dp"
+        android:text="Message"
+        android:layout_marginLeft="33dp"
+        android:textColor="@color/colorTextwhite"
+        android:textSize="19sp"
+        android:paddingRight="15dp"
+        android:layout_marginStart="33dp"
+        android:paddingStart="15dp" />
+
+    <TextView
+        android:id="@+id/msg_rec_timeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/profileBlackDark"
+        android:text="time"
+        android:textSize="12sp" />
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="6dp"
+        android:backgroundTint="@color/alertGreen"
+        android:background="@drawable/shape"
+        android:id="@+id/view" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginStart="18dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/view2"
+        android:layout_marginLeft="30dp" />
+
+</RelativeLayout>

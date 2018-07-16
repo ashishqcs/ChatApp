@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "152827954081",
+    "firebase_url": "https://chatapp-25251.firebaseio.com",
+    "project_id": "chatapp-25251",
+    "storage_bucket": "chatapp-25251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152827954081:android:1ee022c2be500f75",
+        "android_client_info": {
+          "package_name": "com.midcon.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152827954081-n2ljcikj9ooo0cav416oai7rmnlebnai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midcon.chatapp",
+            "certificate_hash": "ed89d88fb9ae29091ca8b15c886eb6e8103b9e08"
+          }
+        },
+        {
+          "client_id": "152827954081-sd2no22sfe1fao5rrn182lttu6r5006p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.midcon.chatapp",
+            "certificate_hash": "ed8afca8f30bb56af184edcb8b6fc1396d44fd6b"
+          }
+        },
+        {
+          "client_id": "152827954081-59nsphee7b91hqa304tdsqibsm520ekg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4QUvJyjDZSrK9MqAI1YWbqb_rwgGmto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152827954081-59nsphee7b91hqa304tdsqibsm520ekg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

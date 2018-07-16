@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:selectableItemBackground"
+    tools:context="com.midcon.chatapp.StatusUpdate">
+
+    <EditText
+        android:id="@+id/statusWrite"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:inputType="textPersonName"
+        android:hint="Enter New Status"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/updateStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Update Status"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

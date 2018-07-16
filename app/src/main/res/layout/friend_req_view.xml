@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/req_view_img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:padding="6dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/req_view_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="4dp"
+        android:text="Anonymous wants to be friend"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="15.5sp"
+        android:maxLines="2"
+        android:maxWidth="230dp"
+        android:textStyle="normal"
+        android:visibility="invisible"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="96dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="42dp"
+        android:maxLines="1"
+        android:maxWidth="240dp"
+        android:textColor="#509401"
+        android:visibility="invisible"
+        android:text="CLick here for more information"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="25dp"
+        android:tint="@color/alertGreen"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_person_add_black_24dp" />
+
+    <View
+        android:id="@+id/lineView"
+        android:layout_width="265dp"
+        android:layout_height="0.5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/profileBlackDark"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

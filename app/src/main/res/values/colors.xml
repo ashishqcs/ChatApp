@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextwhite">#FFFCFBFB</color>
+    <color name="colorTextorange">#ec2603</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="profileBlackDark">#B3000000</color>
+    <color name="backgroundGray">#71837979</color>
+    <color name="msg_sent_color">#71649dff</color>
+    <color name="msg_sent_text_color">#fa0606c2</color>
+    <color name="alertGreen">#fa15ab0e</color>
+</resources>
